@@ -89,6 +89,16 @@ html, body {
   color: #21b11e;
 }
 
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5vw;
+  align-items: flex-end;
+  height: 15vh;
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .img-org {
   width: 500px;
   margin-left: 5vw;
