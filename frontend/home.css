@@ -91,7 +91,7 @@ html, body {
 
 .img-org {
   width: 500px;
-  float: top;
+  margin-left: 5vw;
 }
 
 ::-webkit-scrollbar {
