@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #21b11e;
+  font-size: 20px;
+  color: #16161d;
+  max-height: 50px;
+}
+
+.navbar a {
+  color: #16161d;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
