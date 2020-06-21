@@ -1,3 +1,5 @@
+/* Chrome, Edge Chromium, Opera, Safari, etc */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -10,4 +12,12 @@
 ::-webkit-scrollbar-thumb {
   background: #157713;
   border-radius: 5px;
+}
+
+/* Firefox, Tor Browser, outros derivados */
+
+html {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #157713 #16161d;
 }

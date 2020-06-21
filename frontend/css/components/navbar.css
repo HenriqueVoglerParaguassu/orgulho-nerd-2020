@@ -2,7 +2,6 @@
   background-color: #21b11e;
   font-size: 20px;
   color: #16161d;
-  max-height: 50px;
 }
 
 .navbar a {
@@ -11,5 +10,9 @@
 }
 
 .navbar a:hover {
-  color: #ffffff;
+  color: #e6e6e6;
+}
+
+.navbar button:focus, .navbar button:active, .navbar button {
+  outline: none;
 }

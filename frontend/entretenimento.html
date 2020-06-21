@@ -4,26 +4,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Entretenimento</title>
-  <link rel="stylesheet" href="entretenimento.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./images/favicon.ico" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico">
+
+  <!-- CSS conteúdo principal -->
+  <link rel="stylesheet" href="css/entretenimento.css">
+
+  <!-- CSS personalização da navbar -->
+  <link rel="stylesheet" href="css/components/navbar.css">
+
+  <!-- CSS personalização da barra de rolagem -->
+  <link rel="stylesheet" href="css/components/scroll.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="nav">
-      <ul>
-        <a href="#"><img class="img-nav" src="./images/controle-retro.svg" width="50" alt=""> </a>
-        <li><a href="#">Campeonato</a></li>
-        <li><a href="#">Exposições</a></li>
-        <li><a href="#">Entretenimento</a></li>
-        <li><a href="#">Edições</a></li>
-        <li><a href="#">Palestras e Oficinas</a></li>
-        <li><a href="#">Parceiros</a></li>
-      </ul>
-    </div>
+  <div class="container-fluid">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="./images/controle-retro.svg" width="40" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"><img
+            src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="30"
+            alt=""></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./campeonatos.html">Campeonatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./exposicoes.html">Exposições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./entretenimento.html">Entretenimento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./edicoes.html">Edições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./palestras.html">Palestras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./palestras.html">Parceiros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="title">Entretenimento</div>
 
@@ -47,6 +89,16 @@
       </div>
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
