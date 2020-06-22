@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 12vh;
+  margin-bottom: 8%;
+}
+
+.card-img {
+  margin-bottom: 7%;
+}
+
+.card-img a img {
+  width: 40vw;
+  border-radius: 8px;
+}
+
+.card-box {
+  padding: 2%;
+  width: 42vw;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.card-img a {
+  text-align: center;
+  font-size: 2.3vw;
+  color: #16161d;
+}
+
+.card-img a p {
+  margin-top: 5%;
+}
+
+.card-img a:hover {
+  color: #16161d;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .card-box {
+    width: 60vw;
+  }
+  .card-img a img {
+    width: 58vw;
+  }
+}

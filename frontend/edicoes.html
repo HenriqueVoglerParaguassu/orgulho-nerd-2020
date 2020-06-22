@@ -4,156 +4,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orgulho Nerd 2020 - Edições</title>
-  <link rel="stylesheet" href="teste.css">
-  <link rel="stylesheet" href="home.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <title>Orgulho Nerd 2020- EDIÇÕES ANTERIORES</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico">
+
+  <!-- CSS conteúdo principal -->
+  <link rel="stylesheet" href="css/edicoes.css">
+
+  <!-- CSS personalização da navbar -->
+  <link rel="stylesheet" href="css/components/navbar.css">
+
+  <!-- CSS personalização da barra de rolagem -->
+  <link rel="stylesheet" href="css/components/scroll.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<style type="text/css">
-  .nav {
-    height: 40px;
-    width: 100%;
-    background-color: #21b11e;
-    font-size: 22px;
-  }
 
-  .nav ul {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-
-  .nav ul li {
-    display: inline;
-  }
-
-  .nav ul li a {
-    padding: 2px 10px;
-    display: inline-block;
-    color: #16161d;
-    text-decoration: none;
-  }
-
-  .nav ul li a:hover {
-    background-color: #d6d6d65d;
-    color: #16161d;
-    border-bottom: 2px solid #16161d;
-  }
-
-  .img-nav {
-    cursor: default;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-  }
-
-  ul {
-    margin: 0px;
-  }
-
-  .titulo center h1 {
-    font-size: 30px;
-    font-family: "Arial";
-    margin-top: -160px;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .an {
-    width: 995px;
-    display: table;
-    background: #000000;
-    padding: 200px;
-    color: #FFFAF0;
-    font-family: "Arial";
-    margin-left: -24px;
-  }
-
-  tudo {
-    display: table;
-  }
-
-  h2 {
-    font-family: "Arial";
-    font-size: 20px;
-    color: #FFFAF0;
-    text-shadow: 2px 2px 2px black;
-  }
-</style>
 
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="home.html">
+      <img src="./images/controle-retro.svg" width="40" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"><img
+          src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="30"
+          alt=""></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./campeonatos.html">Campeonatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./exposicoes.html">Exposições</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./entretenimento.html">Entretenimento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./edicoes.html">Edições</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./palestras.html">Palestras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./parceiros.html">Parceiros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="container">
-    <nav class="navbar navbar-expand-lg  fixed-top">
-      <a class="navbar-brand" href="home.html">
-        <img src="./images/controle-retro.svg" width="40" alt="">
+
+    <!-- Título -->
+    <div class="title">Edições Anteriores</div>
+
+    <!-- Cards de imagem agrupada ao texto -->
+    <div class="card-img d-flex justify-content-center">
+      <a href="#">
+        <div class="card-box shadow">
+          <img src="./images/starwars.png" alt="">
+          <p>Orgulho Nerd 2019</p>
+        </div>
       </a>
+    </div>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"><img
-            src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="30"
-            alt=""></span>
-      </button>
+    <div class="card-img d-flex justify-content-center">
+      <a href="#">
+        <div class="card-box shadow">
+          <img src="./images/starwars.png" alt="">
+          <p>Orgulho Nerd 2018</p>
+        </div>
+      </a>
+    </div>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="./campeonatos.html">Campeonatos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./exposicoes.html">Exposições</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./entretenimento.html">Entretenimento</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./edicoes.html">Edições</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./palestras.html">Palestras</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./parceiros.html">Parceiros</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="card-img d-flex justify-content-center">
+      <a href="#">
+        <div class="card-box shadow">
+          <img src="./images/starwars.png" alt="">
+          <p>Orgulho Nerd 2017</p>
+        </div>
+      </a>
+    </div>
+
+
   </div>
-
-  <section class="an">
-
-    <div class="titulo">
-
-      <h1>
-        <font face="Arial" color="gray">Edições Anteriores</font>
-      </h1><br><br>
-
-    </div>
-
-    <div class="tudo">
-
-      <img src="org.jpeg" width="400" height="300">
-
-      <h2>Orgulho Nerd 2019</h2>
-
-      <img src="org.jpeg" width="400" height="300">
-
-      <h2>Orgulho Nerd 2018</h2>
-
-      <img src="org.jpeg" width="400" height="300">
-
-      <h2>Orgulho Nerd 2017</h2>
-
-
-    </div>
-  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

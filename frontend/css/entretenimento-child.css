@@ -3,14 +3,18 @@ html, body, .container-fluid {
   height: 100%;
 }
 
+.container {
+  background-color: #16161d;
+  height: 100%;
+}
+
 .card {
-  max-width: 270px;
+  max-width: 300px;
   margin-bottom: 60px;
-  overflow: auto;
 }
 
 .card-body {
-  background-color: #aaa9a9;
+  background-color: #cccccc;
   color: #16161d;
 }
 
@@ -19,4 +23,13 @@ html, body, .container-fluid {
   margin-top: 15vh;
   margin-bottom: 7.5vh;
   color: #ffffff;
+}
+
+.card a {
+  color: #16161d;
+}
+
+.card a:hover {
+  color: #16161d;
+  text-decoration: none;
 }

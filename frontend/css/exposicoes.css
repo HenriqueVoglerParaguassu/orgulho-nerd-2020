@@ -1,88 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+.container-fluid {
+  height: 42vw;
 }
 
-.nav {
-    height: 40px;
-    width: 100%;
-    background-color: #21b11e;
-    font-size: 22px;
-}
-
-.nav ul {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.nav ul li {
-    display: inline;
-}
-
-.nav ul li a {
-    padding: 2px 36px;
-    display: inline-block;
-    color: #16161d;
-    text-decoration: none;
-}
-
-.nav ul li a:hover {
-    background-color: #d6d6d65d;
-    color: #16161d;
-    border-bottom: 2px solid #16161d;
-}
-
-.img-nav {
-    cursor: default;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-.container {
-    background: #16161d;
-    height: 100%;
-    color: #ffffff;
+.carousel {
+  width: 65vw;
 }
 
 .title {
-    margin-top: 11vh;
-    margin-left: 42vw;
-    font-size: 35px;
-    line-height: 1.25em;
-    width: 50%;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  color: #16161d;
 }
 
-.container{
-    margin-top: 30px;
-}
-
-.container h1 {
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-.card-title{
-    font-size: 26px;
-    text-align: center;
-}
-
-.card-body p{
-    font-size: 14px;
-    text-align: justify;
-}
-
-.container section{
-    margin-top: 30px;
-}
-
-.container a:hover {
-    text-decoration: none;
+img {
+  border-radius: 8px;
+  object-fit: cover;
 }
