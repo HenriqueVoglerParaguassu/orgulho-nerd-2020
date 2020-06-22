@@ -4,161 +4,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orgulho Nerd 2020 - SERIES</title>
-  <link rel="stylesheet" href="estilo.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+  <title>Orgulho Nerd 2020 - FILMES</title>
 
-  <style>
-    body {
-      background-color: #16161d;
-    }
+  <!-- CSS da própria página -->
+  <link rel="stylesheet" href="css/entretenimento-child.css">
 
-    .card-body {
-      background: transparent;
-      color: #FFFFFF;
-    }
-  </style>
+  <!-- CSS personalização da navbar -->
+  <link rel="stylesheet" href="css/components/navbar.css">
+
+  <!-- CSS personalização da barra de rolagem -->
+  <link rel="stylesheet" href="css/components/scroll.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
+  <div class="container-fluid">
 
-  <!--Menu-->
-  <nav class="navbar navbar-expand-lg  fixed-top">
-    <a class="navbar-brand" href="#">
-      <img src="./images/controle-retro.svg" width="40" alt="">
-    </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  fixed-top">
+      <a class="navbar-brand" href="home.html">
+        <img src="./images/controle-retro.svg" width="40" alt="">
+      </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"><img
-          src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="30"
-          alt=""></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"><img
+            src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="30"
+            alt=""></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="./campeonatos.html">Campeonatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./exposicoes.html">Exposições</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./entretenimento.html">Entretenimento</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./edicoes.html">Edições</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./palestras.html">Palestras</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./palestras.html">Parceiros</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!--Fim Menu-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./campeonatos.html">Campeonatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./exposicoes.html">Exposições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./entretenimento.html">Entretenimento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./edicoes.html">Edições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./palestras.html">Palestras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./parceiros.html">Parceiros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <div class="container">
     <!--Titulo-->
-    <h1 style="text-align: center">Séries</h1>
+    <h1 class="title">Filmes</h1>
 
-    <!--Cards de Filmes-->
-    <!--Card 1-->
-    <section>
-      <div class="row">
-        <div class="col-sm-6">
+    <div class="d-flex justify-content-around flex-wrap">
 
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="img/imagem1.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">The Big Bang Theory</h5>
-                <p class="card-text">Leonard e Sheldon são físicos brilhantes capazes de
-                  explicar o funcionamento do universo. O que nenhum gênio ensina a eles
-                  é como lidar com as pessoas.
+      <!-- Card -->
+      <div class="card">
 
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
 
-                </p>
-              </div>
-            </div>
-          </div>
-          </a>
-        </div>
-
-        <!--Card 2-->
-        <div class="col-sm-6">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="img/imagem2.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Star Trek</h5>
-                <p class="card-text">O imperturbável Cap. James T. Kirk leva a icônica
-                  e intergalática tripulação da USS Enterprise
-                  nesta série pioneira sobre a exploração espacial.
-                </p>
-              </div>
-            </div>
-          </div>
-          </a>
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
         </div>
       </div>
-    </section>
 
-    <!--Card 3-->
-    <section>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="img/imagem3.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Doctor Who</h5>
-                <p class="card-text">Um excêntrico extraterrestre, conhecido como Doutor,
-                  viaja pelo tempo e espaço em sua nave espacial,
-                  a TARDIS, para proteger a Terra e o cosmos de todos os tipos de perigo
-                </p>
-              </div>
-            </div>
-          </div>
-          </a>
-        </div>
+      <!-- Card -->
+      <div class="card">
 
-        <!--Card 4-->
-        <div class="col-sm-6">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="img/imagem4.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">The Umbrella Academy</h5>
-                <p class="card-text">Baseada nas HQs de Gabriel Bá e Gerard Way,
-                  The Umbrella Academy traz aos holofotes uma família disfuncional de super-heróis.
-                  A série conta com personagens carismáticos e belos efeitos especiais,
-                  além de reviravoltas de tirar o fôlego
-                </p>
-              </div>
-            </div>
-          </div>
-          </a>
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
+
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
         </div>
       </div>
-    </section>
+
+      <!-- Card -->
+      <div class="card">
+
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
+
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="card">
+
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
+
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="card">
+
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
+
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="card">
+
+        <!-- Imagem do card -->
+        <img class="card-img-top" src="images/starwars.png" alt="">
+        <div class="card-body">
+          <!-- Título do card -->
+          <h5 class="card-title">Star Wars</h5>
+
+          <!-- Texto do card -->
+          <p class="card-text">A série teve início com o simples título Star Wars, escrito e
+            dirigido por George Lucas, lançado em 25 de maio de 1977. ... Após o lançamento de O Império Contra-Ataca,
+            Star Wars (1977) ganhou o subtitulo "Episódio IV: Uma Nova Esperança".
+          </p>
+        </div>
+      </div>
+
+    </div>
   </div>
-  <!--Fim Cards-->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -169,7 +179,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>

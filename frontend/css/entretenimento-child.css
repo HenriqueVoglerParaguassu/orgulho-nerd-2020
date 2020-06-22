@@ -1,73 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+html, body, .container-fluid {
+  background-color: #16161d;
+  height: 100%;
 }
 
-.nav {
-    height: 38px;
-    width: 100%;
-    background-color: #21b11e;
-    font-size: 20px;
+.card {
+  max-width: 270px;
+  margin-bottom: 60px;
+  overflow: auto;
 }
 
-.nav ul {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
+.card-body {
+  background-color: #aaa9a9;
+  color: #16161d;
 }
 
-.nav ul li {
-    display: inline;
-}
-
-.nav ul li a {
-    padding: 4px 50px;
-    display: inline-block;
-    color: #16161d;
-    text-decoration: none;
-}
-
-.nav ul li a:hover {
-    background-color: #d6d6d65d;
-    color: #16161d;
-    border-bottom: 4px solid #16161d;
-}
-
-.img-nav {
-    cursor: default;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-.container{
-    margin-top: 30px;
-}
-
-.container h1 {
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-.card-title{
-    font-size: 26px;
-}
-
-.card-body p{
-    font-size: 14px;
-    text-align: justify;
-}
-
-.container section{
-    margin-top: 50px;
-}
-
-.container a:hover {
-    text-decoration: none;
+.title {
+  text-align: center;
+  margin-top: 15vh;
+  margin-bottom: 7.5vh;
+  color: #ffffff;
 }

@@ -56,7 +56,7 @@ html, body {
   font-size: 15px;
 }
 
-.title{
+.title {
   margin: auto;
   margin-top: 2%;
   width: 50%;
@@ -71,37 +71,37 @@ html, body {
   font-weight: 300;
 }
 
-.lineup .title[data-v-2]{
-	overflow: hidden;
-	flex: 1;
+.lineup .title[data-v-2] {
+  overflow: hidden;
+  flex: 1;
 }
 
 .lineup[data-v-2] {
   height: 20rem;
-	display: flex;
+  display: flex;
   overflow-x: hidden;
   width: 100vw;
 }
 
-.lineup{
-	Display:flex;
-	Justify-content:space-around;
-  wrap:flex-wrap;
+.lineup {
+  Display: flex;
+  Justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
 
-.box--game[data-v-1]:before{
-	display: block;
-	content: "";
-	width: 100%;
-	padding-top: 35%;
+.box--game[data-v-1]:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 35%;
 }
 
 .box--game[data-v-1] {
-    position: relative;
+  position: relative;
 }
 
-.box[data-v-1]{
+.box[data-v-1] {
   display: block;
   background-size: contain;
   background-position: 100% 100%;
@@ -111,12 +111,12 @@ html, body {
   text-decoration: none;
 }
 
-.box-separate{
+.box-separate {
   width: 100%;
 }
 
-.box-desc{
-	text-align: justify;
+.box-desc {
+  text-align: justify;
   margin: auto;
   width: 50%;
   padding: 20px;
@@ -127,28 +127,28 @@ html, body {
 }
 
 .btn {
-	box-shadow: 0px 0px 2px 0px #000000;
-	background-color:transparent;
-	border-radius:7px;
-	border:1px solid #26bd35;
-	display:inline-block;
-	cursor:pointer;
-	color:#000;
-	font-family:'Roboto', sans-serif;
-	font-size:19px;
-	padding:8px 25px;
-	text-decoration:none;
-  text-shadow:0px 1px 1px #000000;
+  box-shadow: 0px 0px 2px 0px #000000;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 1px solid #26bd35;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  padding: 8px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 1px #000000;
   margin-top: 20px;
 }
 
 .btn:hover {
-	background-color:transparent;
+  background-color: transparent;
 }
 
 .btn:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .bar-bot {
@@ -156,8 +156,8 @@ html, body {
   padding: 10px;
 }
 
-.desc{
-	font-size: 17px;
+.desc {
+  font-size: 17px;
 }
 
 h1 {
@@ -172,9 +172,8 @@ h2 {
   margin-inline-start: 10px;
   margin-inline-end: 0px;
   font-weight: bold;
-	color: white;
+  color: white;
 }
-
 
 .texto-central {
   margin-top: 10vh;

@@ -17,7 +17,6 @@ html, body {
 .title {
   margin-top: 17vh;
   margin-left: 5vw;
-  /* font-size: 15%; */
 }
 
 .title h1 {
@@ -44,12 +43,23 @@ html, body {
   font-size: 3vh;
 }
 
+.mini {
+  color: transparent;
+}
+
 @media (max-width: 768px) {
   .row {
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
   }
-  .imagem {
-    width: 60%;
-    margin-left: 25%;
+  .imagem, .texto-adc {
+    opacity: 0;
+    color: transparent;
+  }
+  .text-right {
+    font-size: 1rem;
+  }
+  .mini {
+    color: #ffffff;
   }
 }

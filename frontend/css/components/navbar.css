@@ -11,6 +11,7 @@
 
 .navbar a:hover {
   color: #e6e6e6;
+  transition: 0.4s ease-out;
 }
 
 .navbar button:focus, .navbar button:active, .navbar button {
